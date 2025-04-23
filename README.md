@@ -79,7 +79,7 @@ delve/
 │
 ├── cmd/             # CLI entry points
 │   ├── delve-asm/   # Command to assemble .asm files
-│   └── delve-lang/  # Command to compile/run .dl files
+│   └── delve-lang/  # Command to compile/run .delve files
 │
 └── README.md        # You're here 🙂
 ```
