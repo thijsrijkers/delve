@@ -45,10 +45,10 @@ print buf[0]    # prints 42
 allocator.free(buf)
 
 # Example of pointers and dereferencing
-let x = 10
-let p = &x
-let y = *p
-print y          # prints 10
+const x = 10
+const p = &x
+const y = *p
+log(y)          # prints 10
 ```
 
 In this example, the allocator instance explicitly manages memory allocation and freeing. The alloc method reserves memory blocks, returning pointers that can be used for indexed access or pointer operations. The free method releases memory back to the allocator, enabling reuse. This pattern mirrors the manual memory management approach used in systems languages like Zig.
@@ -68,6 +68,18 @@ In this example, the allocator instance explicitly manages memory allocation and
 - The Monkey programming language is a minimalist language interpreter written in Go and offers valuable insights.
 - Systems programming languages like C, Zig, and Rust inspire manual memory management and pointer semantics.
 - Go LLVM bindings offer a future path toward compiling your language to native machine code.
+
+
+## Testing:
+
+### 1. Unit Testing
+To run the unit tests, navigate to the source folder and run:
+
+```bash
+go test ./unit...
+```
+
+This will execute the unit tests and display the results in your terminal.
 
 
 ## License
