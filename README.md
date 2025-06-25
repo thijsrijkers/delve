@@ -62,14 +62,6 @@ In this example, the allocator instance explicitly manages memory allocation and
 - Portability and tooling make distributing and maintaining the interpreter easier.
 
 
-## Learning and Inspiration
-
-- *Writing an Interpreter in Go* by Thorsten Ball provides a comprehensive guide to language design and interpreter implementation.
-- The Monkey programming language is a minimalist language interpreter written in Go and offers valuable insights.
-- Systems programming languages like C, Zig, and Rust inspire manual memory management and pointer semantics.
-- Go LLVM bindings offer a future path toward compiling your language to native machine code.
-
-
 ## Testing:
 
 ### 1. Unit Testing
@@ -80,6 +72,14 @@ go test ./unit...
 ```
 
 This will execute the unit tests and display the results in your terminal.
+
+
+## Learning and Inspiration
+
+- *Writing an Interpreter in Go* by Thorsten Ball provides a comprehensive guide to language design and interpreter implementation.
+- The Monkey programming language is a minimalist language interpreter written in Go and offers valuable insights.
+- Systems programming languages like C, Zig, and Rust inspire manual memory management and pointer semantics.
+- Go LLVM bindings offer a future path toward compiling your language to native machine code.
 
 
 ## License
